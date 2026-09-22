@@ -1,7 +1,18 @@
-struct Task {
+pub struct Task {
     title : String,
     completed : bool,
 }
+
+impl Task {
+    fn complete(&mut self) {
+        self.completed = true;
+    }
+    
+    fn show(&self) {
+        println!("Task : {}", self.title);
+    }
+}
+
 
 fn main() {
     println!("Hello, world!");
@@ -24,11 +35,11 @@ fn main() {
     for i in &numbers {
         print!("{i} ");
     }
-
-
+    println!("");
+    task.show();
 }
 
-
+// impl
 // println!("{}", value);  // normal display
 // println!("{value}");     // shorter normal display
 // println!("{:?}", value); // debug display
