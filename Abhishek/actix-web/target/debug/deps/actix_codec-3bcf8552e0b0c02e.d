@@ -1,0 +1,10 @@
+/home/technoidentity/Downloads/Project/anything/aureate-abhishek-kumar/Abhishek/actix-web/target/debug/deps/actix_codec-3bcf8552e0b0c02e.d: /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lib.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/bcodec.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/framed.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lines.rs
+
+/home/technoidentity/Downloads/Project/anything/aureate-abhishek-kumar/Abhishek/actix-web/target/debug/deps/libactix_codec-3bcf8552e0b0c02e.rlib: /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lib.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/bcodec.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/framed.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lines.rs
+
+/home/technoidentity/Downloads/Project/anything/aureate-abhishek-kumar/Abhishek/actix-web/target/debug/deps/libactix_codec-3bcf8552e0b0c02e.rmeta: /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lib.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/bcodec.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/framed.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lines.rs
+
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lib.rs:
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/bcodec.rs:
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/framed.rs:
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/actix-codec-0.5.4/src/lines.rs:

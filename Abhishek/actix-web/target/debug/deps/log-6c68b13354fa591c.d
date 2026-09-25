@@ -1,0 +1,10 @@
+/home/technoidentity/Downloads/Project/anything/aureate-abhishek-kumar/Abhishek/actix-web/target/debug/deps/log-6c68b13354fa591c.d: /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/lib.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/macros.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/serde.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/__private_api.rs
+
+/home/technoidentity/Downloads/Project/anything/aureate-abhishek-kumar/Abhishek/actix-web/target/debug/deps/liblog-6c68b13354fa591c.rlib: /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/lib.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/macros.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/serde.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/__private_api.rs
+
+/home/technoidentity/Downloads/Project/anything/aureate-abhishek-kumar/Abhishek/actix-web/target/debug/deps/liblog-6c68b13354fa591c.rmeta: /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/lib.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/macros.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/serde.rs /home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/__private_api.rs
+
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/lib.rs:
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/macros.rs:
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/serde.rs:
+/home/technoidentity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.34/src/__private_api.rs:
