@@ -4,7 +4,7 @@ fn dfs(node: usize, adj: &Vec<Vec<usize>>, vis: &mut Vec<bool>){
     vis[node] = true;
     for &it in &adj[node]{
         if !vis[it]{
-            dfs(it, adj, vis)
+            dfs(it, adj, vis);
         }
     }
 }
