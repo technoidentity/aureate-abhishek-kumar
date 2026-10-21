@@ -56,21 +56,36 @@ fn subset_sum(
     i: usize,
     subset: &mut Vec<i32>,
     ans: &mut Vec<Vec<i32>>,
-){
+    dp: &mut Vec<Vec<i32>>,
+) -> i32{
     if i == arr3.len(){
         if target == 0 {
-            ans.push(subset.clone());
+            return 1;
 
         }
-        return;
+        return 0;
     }
-    subset.push(arr3[i]);
+    if target<0{
+        return 0;
+    }
+    if dp[i][target as usize] != -1{
+        return dp[i][target as usize];
+    }
+    // subset.push(arr3[i]);
 
-    subset_sum(arr3, target-arr3[i], i+1, subset, ans);
+    // subset_sum(arr3, target-arr3[i], i+1, subset, ans);
 
-    subset.pop();
+    // subset.pop();
 
-    subset_sum(arr3, target, i+1, subset, ans);
+    // subset_sum(arr3, target, i+1, subset, ans);
+
+    let pick = subset_sum(arr3, target - arr3[i], i+1, subset, ans, dp);
+    let not_pick = subset_sum(arr3, target , i+1, subset, ans, dp);
+    
+    dp[i][target as usize] = pick + not_pick;
+
+    dp[i][target as usize]
+
 }
 
 fn main() {
@@ -86,9 +101,10 @@ fn main() {
     let mut subset = Vec::new();
     let mut ans = Vec::new(); 
     let arr3 = vec![5,4,2,3,1];
-
-    subset_sum(&arr3, 5, 0, &mut subset, &mut ans);
-    println!("{:?}", ans);
+    let mut target = 5;
+    let mut dp = vec![vec![-1; target as usize + 1]; arr3.len()];
+    let result = subset_sum(&arr3, target, 0, &mut subset, &mut ans, &mut dp);
+    println!("Number of subsets: {}", result);
 }
 
 
