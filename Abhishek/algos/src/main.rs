@@ -50,6 +50,29 @@ fn two_sum(arr: Vec<i32>, target: i32) -> Option<(i32, i32)> {
     None
 }
 
+fn subset_sum(
+    arr3: &Vec<i32>,
+    target: i32,
+    i: usize,
+    subset: &mut Vec<i32>,
+    ans: &mut Vec<Vec<i32>>,
+){
+    if i == arr3.len(){
+        if target == 0 {
+            ans.push(subset.clone());
+
+        }
+        return;
+    }
+    subset.push(arr3[i]);
+
+    subset_sum(arr3, target-arr3[i], i+1, subset, ans);
+
+    subset.pop();
+
+    subset_sum(arr3, target, i+1, subset, ans);
+}
+
 fn main() {
     let mut values = vec![5, 2, 4, 1, 3];
     let sorted = selection_sort(&mut values);
@@ -60,6 +83,12 @@ fn main() {
     bubble_sort(& mut arr2);
     println!("{:?}", arr2);
     println!("{:?}", two_sum(arr2, 5));
+    let mut subset = Vec::new();
+    let mut ans = Vec::new(); 
+    let arr3 = vec![5,4,2,3,1];
+
+    subset_sum(&arr3, 5, 0, &mut subset, &mut ans);
+    println!("{:?}", ans);
 }
 
 
