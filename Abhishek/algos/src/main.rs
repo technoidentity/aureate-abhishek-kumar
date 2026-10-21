@@ -29,7 +29,26 @@ fn bubble_sort(arr2 : &mut Vec<i32>){
     }
 }
 
-fn 
+fn two_sum(arr: Vec<i32>, target: i32) -> Option<(i32, i32)> {
+    if arr.len() < 2{
+        return None;
+    }
+    let n = arr.len();
+    let mut l = 0;
+    let mut r = n-1;
+    while l < r{
+        let sum = arr[l] as i64 + arr[r] as i64;
+        if sum == target as i64 {
+            return Some((arr[l], arr[r]));
+        }else if sum < target as i64 {
+            l+=1;
+        }else{
+            r-=1;
+        }
+
+    }
+    None
+}
 
 fn main() {
     let mut values = vec![5, 2, 4, 1, 3];
@@ -40,6 +59,7 @@ fn main() {
     let mut arr2 = vec![5,4,2,3,1];
     bubble_sort(& mut arr2);
     println!("{:?}", arr2);
+    println!("{:?}", two_sum(arr2, 5));
 }
 
 
