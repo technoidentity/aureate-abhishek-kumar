@@ -1,3 +1,4 @@
+use std::io::{self, Read};
 fn selection_sort(arr: &mut Vec<i32>) -> Vec<i32> {
     let mut stack = Vec::with_capacity(arr.len());
 
@@ -88,6 +89,27 @@ fn subset_sum(
 
 }
 
+fn solve(nums:&Vec<i32>,
+        ans : &mut Vec<i32>){
+    let n = nums.len();
+    
+    for i in 0..2*n{
+        ans[i] = nums[i%n];
+    }
+    
+}
+fn shuffle(
+    nums: &Vec<i32>,
+    ans: &mut Vec<i32>
+){
+    let n = nums.len();
+    for i in 0..n/2{
+        ans.push(nums[i]);
+        ans.push(nums[n/2+i]);
+    }
+}
+
+
 fn main() {
     let mut values = vec![5, 2, 4, 1, 3];
     let sorted = selection_sort(&mut values);
@@ -105,6 +127,16 @@ fn main() {
     let mut dp = vec![vec![-1; target as usize + 1]; arr3.len()];
     let result = subset_sum(&arr3, target, 0, &mut subset, &mut ans, &mut dp);
     println!("Number of subsets: {}", result);
+    let nums = vec![1,2,1];
+    let n = nums.len();
+    let mut ans = vec![0; 2 * n];
+    solve(&nums, &mut ans);
+    println!("{:?}", ans);
+    let mut ans2: Vec<i32> = Vec::new();
+    let nums2 = vec![5,4,3,2,1,7];
+    shuffle(&nums2, &mut ans2);
+    println!("{:?}", ans2);
+
 }
 
 
